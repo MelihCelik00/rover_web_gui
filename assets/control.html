@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ROVER'19</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./css/source-sans-pro.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/controlstyle.css" />
+    <script type="text/javascript" src="./js/external/nipplejs.min.js"></script>
+    <script type="text/javascript" src="./js/external/mapbox-gl.js"></script>
+    <script type="text/javascript" src="./js/external/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="./js/external/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/external/eventemitter2.min.js"></script>
+    <script type="text/javascript" src="./js/external/roslib.min.js"></script>
+    <script type="text/javascript" src="./js/external/app.min.js"></script>
+    <script type="text/javascript" src="./js/ui-customizations.js"></script>
+    <script type="text/javascript" src="./js/external/gamepad.js"></script>
+    <script type="text/javascript" src="./js/external/canvasjs.min.js"></script>
+
+
+
+
+    <!-- Uncomment below for debugging
+    <script type="text/javascript" src="./js/debug/jquery-2.2.4.js"></script>
+    <script type="text/javascript" src="./js/debug/bootstrap.js" ></script>
+    <script type="text/javascript" src="./js/debug/eventemitter2.js"></script>
+    <script type="text/javascript" src="./js/debug/roslib.js"></script>
+    <script type="text/javascript" src="./js/debug/three.js"></script>
+    <script type="text/javascript" src="./js/debug/STLLoader.js"></script>
+    <script type="text/javascript" src="./js/debug/ros3d.js"></script>
+    <script type="text/javascript" src="./js/debug/app.js"></script>
+    <script type="text/javascript" src="./js/ui-customizations.js"></script>
+    -->
+</head>
+
+<body class="hold-transition skin-real-dark">
+    
+    <div class="content-wrapper">
+        <div class="container-fluid">
+            <section class="content">
+                    <div class="col-md-6 col-xs-12">
+                        <div id="map" class="map-sm"></div>
+                    </div>
+                    <div class="joystick" id="joy-left"></div>
+                    <div class="joystick" id="joy-right"></div>
+            </section>
+        </div>
+    </div>
+
+
+    <script src="./js/controlIt.js" type="application/javascript"></script>
+</body>
+
+</html>
